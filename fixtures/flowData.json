@@ -10,7 +10,7 @@
     "description": "Intermediate flow with 5 steps"
   },
   {
-    "name": "Flow Gamma",
+    "name": "Flow gamze",
     "steps": 1,
     "description": "Minimal flow with single step"
   },
@@ -20,7 +20,7 @@
     "description": "Complex multi-step flow for Delta scenario"
   },
   {
-    "name": "Flow Epsilon",
+    "name": "Flow alijan",
     "steps": 4,
     "description": "Flow designed for E2E testing scenario"
   }
