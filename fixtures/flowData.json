@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Flow Alpha",
+    "steps": 3,
+    "description": "Basic 3-step flow for Alpha testing"
+  },
+  {
+    "name": "Flow Beta",
+    "steps": 5,
+    "description": "Intermediate flow with 5 steps"
+  },
+  {
+    "name": "Flow Gamma",
+    "steps": 1,
+    "description": "Minimal flow with single step"
+  },
+  {
+    "name": "Flow Delta",
+    "steps": 7,
+    "description": "Complex multi-step flow for Delta scenario"
+  },
+  {
+    "name": "Flow Epsilon",
+    "steps": 4,
+    "description": "Flow designed for E2E testing scenario"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "name": "playwright-framework",
+  "version": "1.0.0",
+  "description": "A high-level Playwright automation framework with Page Object Model and data-driven tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "pwsh -Command \"playwright test --debug\"",
+    "test:report": "playwright show-report",
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write .",
+    "clean": "rm -rf test-results playwright-report",
+    "install:playwright": "playwright install"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.38.0",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-playwright": "^1.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
