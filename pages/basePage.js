@@ -28,6 +28,7 @@ export class BasePage {
     await locator.click();
     await this.waitForPageLoad();
   }
+  
 
   async fillElement(locator, value) {
     await expect(locator).toBeVisible();
